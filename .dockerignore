@@ -1,0 +1,30 @@
+# Maven build output — rebuilt inside Docker, don't send to build context
+target/
+
+# IDE files
+.idea/
+*.iml
+*.iws
+.vscode/
+*.classpath
+*.project
+*.settings/
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Docker files themselves
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Logs and temp files
+*.log
+*.tmp
+*.pid
+
+# OS junk
+.DS_Store
+Thumbs.db
